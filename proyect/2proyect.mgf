@@ -1,0 +1,30 @@
+V 000038 40 377 1691114818459 proyect
+SYMB0100
+HEADER
+{
+  VARIABLES
+  {
+    #HDL_ENTRIES="library IEEE;\nuse IEEE.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1691114818"
+  }
+}
+PAGE ""
+{
+  PAGEHEADER 
+  {
+    FREEID 2
+    RECT (0,0,160,40)
+  }
+  BODY
+  {
+    RECT 1,0,0
+    {
+      VARIABLES
+      {
+        #OUTLINE_FILLING="1"
+      }
+      AREA (20,0,140,40)
+    }
+  }
+}

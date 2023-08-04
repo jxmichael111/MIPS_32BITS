@@ -1,0 +1,1 @@
+-w -s "D:\mips\proyect\library.cfg"  -j "D:\mips\proyect\proyect\projlib.cfg"  -d "D:\mips\proyect\proyect\compile"   -work proyect  -dbg -e 100 -2002 "D:\\mips\\proyect\\proyect\\src\\mips.vhd"  "D:\\mips\\proyect\\proyect\\src\\sumador\\sumador_completo.vhd" 

@@ -1,0 +1,7 @@
+MESSAGE "File: D:\mips\proyect\proyect\src\mips.vhd" 
+MESSAGE "Compile Entity "MIPS"" 
+MESSAGE "Compile Architecture "MIPS" of Entity "MIPS"" 
+MESSAGE "File: D:\mips\proyect\proyect\src\sumador\sumador_completo.vhd" 
+MESSAGE "Compile Entity "FULL_ADDER"" 
+MESSAGE "Compile Architecture "FULL_ADDER_ARC" of Entity "FULL_ADDER"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

@@ -1,0 +1,20 @@
+elbread.dll ver. 1.0.5.375 Fri Aug 04 08:43:05 2023
+
+
+--------------------------------------
+Entity      | Architecture   | Library
+--------------------------------------
+mips        | mips           | proyect
+full_adder  | full_adder_arc | proyect
+--------------------------------------
+
+-----------------------------
+Package             | Library
+-----------------------------
+standard            | std
+textio              | std
+std_logic_1164      | ieee
+std_logic_arith     | ieee
+numeric_std         | ieee
+std_logic_unsigned  | ieee
+-----------------------------

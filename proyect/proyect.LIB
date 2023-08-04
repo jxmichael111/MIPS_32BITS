@@ -1,0 +1,129 @@
+timestamp=1691156290455
+
+[adder]
+B/adder_arc=3*2892232
+I=0*259662
+I/adder_arc=I/ADDER_ARC 0*311593
+M=11|0|v147|1691144661391|./src/sumador/sumador.vhd|0*259266*0x73115d6d7625f07bd8f66857b1bc48442acaeb3e|0*259584*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/sumador/sumador.vhd|5
+
+[alu]
+I=0*261328
+I/alu_arc=I/ALU_ARC 0*278394
+M=11|0|v147|1691144661893|./src/alu/alu.vhd|0*260955*0x8f1e7b90ca9d96dbb50f633dc50c927f3bd75f92|0*261260*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/alu/alu.vhd|5
+
+[alu_1bit]
+A/alu_1bit=+21|./src/alu/alu_1bit.vhd|11|1*2566579
+A/alu_1bit_arc=A/ALU_1BIT_ARC 21|./src/alu/alu_1bit.vhd|21|1*4761161
+B/alu_1bit_arc=3*2895603
+I=0*250483
+I/alu_1bit_arc=I/ALU_1BIT_ARC 0*251580
+M=11|0|v147|1691142835144|./src/alu/alu_1bit.vhd|0*250045*0xbe9ed91be5cc9d814e77725e21eaa17e74673288|0*250405*0x7bd7e13dc0415552f89596087806a8cf
+M/alu_1bit=M/ALU_1BIT 21|0|v147|1691142362804|./src/alu/alu_1bit.vhd|0*81594*0x1d459597fe1ebb49c78ee8dc1798f748e1d1efe4|0*81731*0x7bd7e13dc0415552f89596087806a8cf
+M/alu_1bit_arc=M/ALU_1BIT_ARC 21|0|v147|1691156004765|./src/alu/alu_1bit.vhd|0*250585*0x909df2c7c2829f422dbbe59af36c0997f5f71001|0*251486*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/alu/alu_1bit.vhd|6
+
+[alu_control]
+A/alu_control=+21|./src/alu/alu_control.vhd|9|1*4767509
+A/alu_control_arc=A/ALU_CONTROL_ARC 21|./src/alu/alu_control.vhd|33|1*4767862
+B/alu_control_arc=3*2899455
+I=0*402591
+I/alu_control_arc=0*402758
+M=11|0|v147|1691156004893|./src/alu/alu_control.vhd|0*402172*0x5d0d0b21b4535b7190fb93f118803ffb7621bf13|0*402507*0x7bd7e13dc0415552f89596087806a8cf
+M/alu_control=21|0|v147|1691156004891|./src/alu_control.vhd|0*11536*0x66f18a393c1a06f4c6c1a8ede4e6af44ff8c54f4|0*11687*0x7bd7e13dc0415552f89596087806a8cf
+M/alu_control_arc=M/ALU_CONTROL_ARC 21|0|v147|1691156004907|./src/alu_control.vhd|0*12596*0x4aee163b7e0ab04cbb84c2ab20d261e20135b6a5|0*12927*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/alu/alu_control.vhd|21
+
+[full_adder]
+A/full_adder_arc=A/FULL_ADDER_ARC 21|./src/sumador/sumador_completo.vhd|15|1*4869557
+B/full_adder_arc=3*2985319
+I=0*66534
+I/full_adder_arc=I/FULL_ADDER_ARC 0*403315
+M=11|0|v147|1691128119498|./src/sumador/sumador_completo.vhd|0*66140*0xbb5ca09f9f67e1a361b09b2dd5c727a31fb08735|0*66442*0x7bd7e13dc0415552f89596087806a8cf
+M/full_adder_arc=M/FULL_ADDER_ARC 21|0|v147|1691156290313|./src/sumador/sumador_completo.vhd|0*402941*0xcdd744716ce94b5dd6e68e17c0dc7f7698529845|0*403205*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/sumador/sumador_completo.vhd|5
+
+[memdatos]
+B/arq1=3*2957524
+I=0*285168
+I/arq1=0*285913
+M=11|0|v147|1691145654597|./src/memdatos.vhd|0*284712*0x7ebfedcfa5f2e5a780f26edf7092ed89804bc6c1|0*285094*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/memdatos.vhd|5
+
+[meminstruc]
+B/arq1=3*2935641
+I=0*69763
+I/arq1=0*70260
+M=11|0|v147|1691129384676|./src/meminstruc.vhd|0*69271*0x50759adb66b123b43913a4270732712e44677fcc|0*69685*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/meminstruc.vhd|4
+
+[memoriareg]
+B/behavioral=3*2955670
+I=0*132912
+I/behavioral=I/Behavioral 0*200367
+M=11|0|v147|1691137516650|./src/memoriareg.vhd|0*132297*0x3cbd08b3d0bf1197594fea570fdb55acca73faca|0*132834*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/memoriareg.vhd|7
+
+[mips]
+A/mips=A/MIPS 21|./src/mips.vhd|38|1*4849931
+B/mips=3*2966834
+I=0*168702
+I/mips=I/MIPS 0*401217
+M=11|0|v147|1691139195900|./src/mips.vhd|0*168392*0xf3264de0c2fe36bef3f3563f74da8366e7250fc6|0*168636*0x7bd7e13dc0415552f89596087806a8cf
+M/mips=M/MIPS 21|0|v147|1691156290144|./src/mips.vhd|0*395532*0x35a80f3343290bc015be6264f0d503ba88f50de5|0*401143*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/mips.vhd|30
+
+[proyect]
+S/proyect=40|0|2*0
+
+[sumador]
+A/sumador=21|./src/sumador.vhd|16|1*234585
+B/sumador=3*142787
+I=0*36396
+I/sumador=0*64928
+M=11|0|v147|1691123418026|./src/sumador.vhd|0*35988*0xd13ff2215621089d17689ef94f535419b56f012b|0*36324*0x7bd7e13dc0415552f89596087806a8cf
+M/sumador=21|0|v147|1691126181553|./src/sumador.vhd|0*64149*0x429e7d14f595349ceda368c2b43084a38b86f21c|0*64845*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/sumador.vhd|7
+
+[sumador_completo]
+A/sumador_completo=21|./src/sumador_completo.vhd|18|1*232728
+B/sumador_completo=3*140571
+I=0*14260
+I/sumador_completo=0*53911
+M=11|0|v147|1691120297464|./src/sumador_completo.vhd|0*13866*0x68da2f2566fc7443124f8575af31b29865638cef|0*14170*0x7bd7e13dc0415552f89596087806a8cf
+M/sumador_completo=21|0|v147|1691126181425|./src/sumador_completo.vhd|0*53486*0x59cfc39c95ed14693376052fee5e463f68a33ad7|0*53801*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/sumador_completo.vhd|5
+
+[unidadcontrol]
+B/arq1=3*2961382
+I=0*72675
+I/arq1=0*100608
+M=11|0|v147|1691129385570|./src/unidad_control/unidadcontrol.vhd|0*72155*0x14954705fa5f1778bdce915eef7771ee3be2860a|0*72576*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/unidad_control/unidadcontrol.vhd|4
+
+[~A]
+ModifyID=9941
+Version=73
+
+[~MFT]
+0=4341|0proyect.mgf|403315|380429
+1=3171|1proyect.mgf|4869557|4838778
+2=0|2proyect.mgf|0|0
+3=2474|3proyect.mgf|2985319|2946205
+
+[~U]
+adder=11|0*259042|
+alu=11|0*260744|
+alu_1bit=11|0*249743|
+alu_control=11|0*401936|
+full_adder=FULL_ADDER 11|0*65940|
+memdatos=MemDatos 11|0*284424|
+meminstruc=MemInstruc 11|0*68927|
+memoriareg=11|0*131893|
+mips=11|0*168267|
+proyect=11|||0x3
+sumador=11|0*35743|
+sumador_completo=11|0*13630|
+unidadcontrol=UnidadControl 11|0*71799|
+

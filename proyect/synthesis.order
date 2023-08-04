@@ -1,0 +1,7 @@
+i<>.\src\alu_control.vhd
+i<>.\src\ALU.vhd
+i<>.\src\sumador_completo.vhd
+i<>.\src\sumador.vhd
+i<>.\src\ALU_1BIT.vhd
+i<>.\src\UnidadControl.vhd
+i<>.\src\MIPS.vhd

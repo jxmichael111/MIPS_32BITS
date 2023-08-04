@@ -1,0 +1,22 @@
+9941
+~E 1 "./src/memoriareg.vhd" 7 memoriareg
+~E 1 "./src/alu/alu_control.vhd" 21 alu_control
+~A 1 "./src/alu/alu_control.vhd" 33 alu_control_arc
+~A 1 "./src/alu/alu_control.vhd" 9 alu_control
+~E 1 "./src/alu/alu.vhd" 5 alu
+~E 1 "./src/sumador/sumador.vhd" 5 adder
+~E 1 "./src/alu/alu_1bit.vhd" 6 alu_1bit
+~A 1 "./src/alu/alu_1bit.vhd" 21 alu_1bit_arc
+~A 1 "./src/alu/alu_1bit.vhd" 11 alu_1bit
+~E 1 "./src/memdatos.vhd" 5 memdatos
+~E 1 "./src/sumador/sumador_completo.vhd" 5 full_adder
+~A 1 "./src/sumador/sumador_completo.vhd" 15 full_adder_arc
+~E 1 "./src/meminstruc.vhd" 4 meminstruc
+~E 0 "" 0 proyect
+~E 1 "./src/mips.vhd" 30 mips
+~A 1 "./src/mips.vhd" 38 mips
+~E 1 "./src/sumador_completo.vhd" 5 sumador_completo
+~A 1 "./src/sumador_completo.vhd" 18 sumador_completo
+~E 1 "./src/sumador.vhd" 7 sumador
+~A 1 "./src/sumador.vhd" 16 sumador
+~E 1 "./src/unidad_control/unidadcontrol.vhd" 4 unidadcontrol
